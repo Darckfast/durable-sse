@@ -1,4 +1,4 @@
-name = "sse"
+name = "durable-sse"
 main = "main.ts"
 compatibility_date = "2026-05-14"
 upload_source_maps = true
