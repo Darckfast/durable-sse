@@ -1,0 +1,17 @@
+name = "sse"
+main = "main.ts"
+compatibility_date = "2026-05-14"
+upload_source_maps = true
+compatibility_flags = [ "nodejs_compat" ]
+
+[[migrations]]
+new_sqlite_classes = [ "DurableSSE" ]
+tag = "v1"
+
+[[durable_objects.bindings]]
+class_name = "DurableSSE"
+name = "DURABLE_SSE"
+
+[observability]
+enabled = true
+
